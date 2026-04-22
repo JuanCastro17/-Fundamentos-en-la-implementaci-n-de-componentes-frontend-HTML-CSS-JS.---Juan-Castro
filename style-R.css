@@ -1,0 +1,80 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background: #e6d3b3; /* fondo tipo madera clara */
+    margin: 0;
+    color: #3b2f2f;
+}
+
+/* Contenido centrado */
+.header, .container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 2.0rem;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+ul {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+
+/* Texto */
+p {
+    text-align: justify; 
+    font-size: 1.5rem;
+}
+
+/* Secciones */
+.card {
+    background: #fff8f0; /* tono madera suave */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Imagen principal */
+.header img {
+    width: 80%;
+}
+
+/* Imagen secundaria */
+.card img {
+    width: 60%;
+}
+
+/* Navegación */
+nav {
+    text-align: center;
+    background: #a67c52; /* café madera */
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
